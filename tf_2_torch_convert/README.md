@@ -1,6 +1,7 @@
 ### convert the 2 tensorflow vggish models into pytorch
-Model 1: the original model that only contains modules up to embedding layer
-Model 2: Andrew's fully trained model with the extra classifier on top
+
+- Model 1: the original model that only contains modules up to embedding layer
+- Model 2: Andrew's fully trained model with the extra classifier on top
 
 use the following file hierarchy
 ```
@@ -15,6 +16,6 @@ scripts/
         net-008000.tf* (Andrew's trained ckpt)
         ...
 ```
-The Google ckpt is available [here](https://storage.googleapis.com/audioset/vggish_model.ckpt).
-Invoke this conversion script from the command line
-Tested with tensorflow 1.14.0
+- The Google ckpt is available [here](https://storage.googleapis.com/audioset/vggish_model.ckpt).
+- Invoke this conversion script from the command line
+- Tested with tensorflow 1.14.0
